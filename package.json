@@ -1,0 +1,13 @@
+{
+  "name": "ricobrum",
+  "version": "1.0.0",
+  "description": "HB Consultor - 21Go Proteção Patrimonial",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx -y http-server -p 80 -a 0.0.0.0",
+    "dev": "npx -y http-server -p 8000 -a 0.0.0.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

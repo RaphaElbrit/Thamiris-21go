@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xq3qbkraui");
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18406682750"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-18406682750');
+  </script>
+
+  <!-- Event snippet for Leads conversion page -->
+  <script>
+    gtag('event', 'conversion', {'send_to': 'AW-18406682750/X21ICP3u6eccEP7g_shE'});
+  </script>
+  <title>Conectando ao Consultor | 21Go Proteção</title>
+  <meta name="robots" content="noindex" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --primary: #f28a21;
+      --secondary: #145fb8;
+      --whatsapp: #25D366;
+      --whatsapp-dark: #1aab52;
+      --bg: #f8fafc;
+      --text-dark: #1e293b;
+      --text-muted: #64748b;
+      --white: #ffffff;
+      --border: #e2e8f0;
+      --shadow: 0 20px 60px rgba(0,0,0,0.10);
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Fundo com formas suaves */
+    body::before {
+      content: '';
+      position: fixed;
+      top: -30%;
+      right: -20%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(37, 211, 102, 0.08) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    body::after {
+      content: '';
+      position: fixed;
+      bottom: -20%;
+      left: -15%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(29, 114, 212, 0.07) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    /* Header com logo */
+    .page-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 18px 32px;
+      display: flex;
+      align-items: center;
+      background-color: #145fb8 !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      z-index: 10;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 900;
+      color: var(--text-dark);
+      text-decoration: none;
+      letter-spacing: -1px;
+    }
+    .logo-mark { color: var(--primary); }
+
+    /* Card principal */
+    .card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 52px 48px;
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+      box-shadow: var(--shadow);
+      position: relative;
+      z-index: 1;
+      animation: slideUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Ícone do WhatsApp animado */
+    .wpp-icon-wrapper {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #25D366, #1aab52);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px;
+      position: relative;
+      box-shadow: 0 8px 30px rgba(37, 211, 102, 0.35);
+      animation: pulse-wpp 1.8s ease-in-out infinite;
+    }
+
+    @keyframes pulse-wpp {
+      0%, 100% { box-shadow: 0 8px 30px rgba(37, 211, 102, 0.35); transform: scale(1); }
+      50%       { box-shadow: 0 8px 50px rgba(37, 211, 102, 0.55); transform: scale(1.06); }
+    }
+
+    .wpp-icon-wrapper::before {
+      content: '';
+      position: absolute;
+      inset: -8px;
+      border-radius: 50%;
+      border: 2px solid rgba(37, 211, 102, 0.25);
+      animation: ripple 1.8s ease-in-out infinite;
+    }
+    .wpp-icon-wrapper::after {
+      content: '';
+      position: absolute;
+      inset: -18px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(37, 211, 102, 0.12);
+      animation: ripple 1.8s ease-in-out 0.3s infinite;
+    }
+
+    @keyframes ripple {
+      0%   { transform: scale(1); opacity: 1; }
+      100% { transform: scale(1.3); opacity: 0; }
+    }
+
+    .wpp-icon-wrapper svg {
+      width: 44px;
+      height: 44px;
+      fill: white;
+    }
+
+    /* Textos */
+    .card-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--text-dark);
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+    .card-title span { color: var(--whatsapp); }
+
+    .card-subtitle {
+      font-size: 1rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 36px;
+    }
+
+    /* Barra de progresso */
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .progress-label span {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+    .progress-label .pct {
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--whatsapp);
+    }
+
+    .progress-track {
+      width: 100%;
+      height: 10px;
+      background: #e2e8f0;
+      border-radius: 999px;
+      overflow: hidden;
+      margin-bottom: 28px;
+    }
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #25D366, #1aab52);
+      border-radius: 999px;
+      transition: width 0.15s ease;
+      position: relative;
+    }
+    .progress-bar::after {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0;
+      width: 40px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4));
+      border-radius: 999px;
+      animation: shimmer 1s ease-in-out infinite;
+    }
+    @keyframes shimmer {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0; }
+    }
+
+    /* Mensagem de status */
+    .status-text {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      min-height: 22px;
+      transition: opacity 0.3s;
+    }
+
+    /* Divisor */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 28px 0;
+    }
+
+    /* Botão de acesso direto */
+    .direct-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--whatsapp);
+      text-decoration: none;
+      padding: 10px 20px;
+      border: 1.5px solid var(--whatsapp);
+      border-radius: 999px;
+      transition: background 0.2s, color 0.2s;
+      cursor: pointer;
+      background: transparent;
+    }
+    .direct-btn:hover {
+      background: var(--whatsapp);
+      color: white;
+    }
+
+    /* Footer da página */
+    .page-footer {
+      margin-top: 28px;
+      font-size: 0.82rem;
+      color: #94a3b8;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    @media (max-width: 480px) {
+      .card { padding: 40px 24px; }
+      .card-title { font-size: 1.35rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="page-header">
+    <a href="index.html" class="logo">
+      <img src="4daf7a5f-3772-4ccc-92a3-75c3dc9622d7.png" alt="21Go Proteção Patrimonial" style="height: 40px; width: auto;" />
+    </a>
+  </header>
+
+  <!-- Card Central -->
+  <div class="card">
+
+    <!-- Ícone WhatsApp animado -->
+    <div class="wpp-icon-wrapper">
+      <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+        <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L3.9 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+      </svg>
+    </div>
+
+    <h1 class="card-title">Conectando ao seu <span>consultor</span>!</h1>
+    <p class="card-subtitle">
+      Estamos preparando o atendimento personalizado para você.<br>
+      Em instantes, você será direcionado ao WhatsApp de um de nossos consultores especialistas.
+    </p>
+
+    <!-- Barra de progresso -->
+    <div class="progress-label">
+      <span>🔒 Conexão segura</span>
+      <span class="pct" id="pct-text">0%</span>
+    </div>
+    <div class="progress-track">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <p class="status-text" id="status-text">Iniciando conexão...</p>
+
+    <hr class="divider" />
+
+    <p style="font-size:0.85rem; color: #94a3b8; margin-bottom: 14px;">Não foi redirecionado automaticamente?</p>
+    <a
+      href="https://wa.me/5521993550161?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20uma%20simula%C3%A7%C3%A3o%20gr%C3%A1tis%20para%20o%20meu%20ve%C3%ADculo."
+      id="direct-link"
+      class="direct-btn"
+      target="_blank"
+    >
+      <svg width="16" height="16" viewBox="0 0 448 512" fill="currentColor">
+        <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L3.9 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+      </svg>
+      Abrir WhatsApp agora
+    </a>
+  </div>
+
+  <p class="page-footer">
+    Você será redirecionado automaticamente · 21Go Proteção Patrimonial
+  </p>
+
+  <script>
+    const WHATSAPP_URL = "https://wa.me/5521993550161?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20uma%20simula%C3%A7%C3%A3o%20gr%C3%A1tis%20para%20o%20meu%20ve%C3%ADculo.";
+    const DURATION = 3500; // 3,5 segundos
+    const INTERVAL = 40;   // atualiza a cada 40ms
+
+    const bar = document.getElementById('progress-bar');
+    const pct = document.getElementById('pct-text');
+    const statusEl = document.getElementById('status-text');
+
+    const messages = [
+      { at: 0,   msg: 'Iniciando conexão...' },
+      { at: 20,  msg: 'Verificando disponibilidade do consultor...' },
+      { at: 50,  msg: 'Preparando sua simulação personalizada...' },
+      { at: 75,  msg: 'Quase lá! Abrindo WhatsApp...' },
+      { at: 95,  msg: '✅ Pronto! Redirecionando...' },
+    ];
+
+    let elapsed = 0;
+    let done = false;
+
+    const timer = setInterval(() => {
+      elapsed += INTERVAL;
+      const progress = Math.min((elapsed / DURATION) * 100, 100);
+
+      bar.style.width = progress + '%';
+      pct.textContent = Math.floor(progress) + '%';
+
+      // Atualiza mensagem de status
+      for (let i = messages.length - 1; i >= 0; i--) {
+        if (progress >= messages[i].at) {
+          statusEl.textContent = messages[i].msg;
+          break;
+        }
+      }
+
+      if (progress >= 100 && !done) {
+        done = true;
+        clearInterval(timer);
+        setTimeout(() => {
+          window.location.href = WHATSAPP_URL;
+        }, 400);
+      }
+    }, INTERVAL);
+  </script>
+</body>
+</html>
